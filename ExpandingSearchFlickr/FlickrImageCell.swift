@@ -18,7 +18,7 @@ class FlickrImageCell: UICollectionViewCell {
     var searchImage:SearchImage?{
         didSet{
             if let searchImage = searchImage{
-                //imageView.sd_setImage(with: searchImage.photoUrl as URL!)
+                imageView.sd_setImage(with: searchImage.photoUrl as URL!)
                 titleLabel.text = searchImage.title
                 photoIdLabel.text = searchImage.photoId
             }
