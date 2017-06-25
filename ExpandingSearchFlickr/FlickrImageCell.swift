@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class FlickrImageCell: UICollectionViewCell {
     @IBOutlet fileprivate weak var imageView: UIImageView!
